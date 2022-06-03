@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Atributo</title>
+
+    <!--JS-->
+    <script>
+
+        //Função
+        function alterarLink(){
+
+            //Obter o link
+            var link = document.getElementsByTagName("a")[0];
+
+            //Alterar o link
+            link.href = "http://www.google.com"
+
+        }
+    </script>
+
+</head>
+<body>
+
+    <!--O 'a' é a tag, O 'href' é o atributo(link, nesse caso),
+        ou seja, a complementação-->
+    <a href="http://www.proway.com.br">Clique aqui</a>
+    <!--Criar o butão alterar link que executará a função ao ser clicado-->
+    <button onclick="alterarLink()">Alterar link</button>
+
+    
+</body>
+</html>
